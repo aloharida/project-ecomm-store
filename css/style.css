@@ -43,9 +43,14 @@ span {
   direction: ltr;
 } 
 
-#legal a{color: black;}
+#legal a{color: black;
+        text-align: center;}
 
 
 
-img{width: 60%; height: auto;}
+img{
+    
+    width: 50%; height: auto;
+    border-radius: 10px;
+}
 
