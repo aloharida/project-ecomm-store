@@ -7,50 +7,63 @@ header{
     background-color: #ffffff;
     position: relative;
 }
-
- 
+.logo {
+        width: 4in;
+        display: block;
+        margin: 0 auto;}
+        
+#top_menu a{color: #333333;font-size: 14px;}
 #top_menu{
     position: absolute;
     right: 10px;
     top: 20px;
-    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
-#top_menu a{color: #333333;font-size: 14px;}
 
 
 body{
     background-color:white;
     color: #333333;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     line-height: 1.5;
     
 }
 
-span {
-    color: #333333;
 
-    }
 .material-icons {
+    color:#333333;
     font-weight: normal;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
   text-transform: none;
   letter-spacing: 1rem;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+
 } 
 
-#legal a{color: black;
+.legal a{color: rgb(0, 0, 0);
         text-align: center;}
 
 
 
-img{
-    
-    width: 50%; height: auto;
-    border-radius: 10px;
+.products{
+    display: block;
+    margin: 0 auto; 
+    width: 400px; height: auto; border: 2px;
 }
 
+    
+
+
+
+.see-more {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 7mm;
+}
