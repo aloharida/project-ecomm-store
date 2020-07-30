@@ -1,1 +1,51 @@
-/* Note there a few "reset" styles given in reset.css. You may opt to remove those if you wish. */
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+ 
+#top_menu{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+#top_menu a{color: #333333;font-size: 14px;}
+
+
+body{
+    background-color:white;
+    color: #333333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    
+}
+
+span {
+    color: #333333;
+
+    }
+.material-icons {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    display: inline-block;
+  text-transform: none;
+  letter-spacing: 1rem;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+} 
+
+#legal a{color: black;}
+
+
+
+img{width: 60%; height: auto;}
+
