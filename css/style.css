@@ -12,20 +12,19 @@ header{
         display: block;
         margin: 0 auto;}
         
-#top_menu a{color: #333333;font-size: 14px;}
+#top_menu a{color: #3f3f3f;font-size: 14px;}
 #top_menu{
     position: absolute;
     right: 10px;
     top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 30px;
 }
 
 
 body{
     background-color:white;
-    color: #333333;
+    color: rgb(37, 37, 37);
     font-family: Verdana, Geneva, Tahoma, sans-serif
     line-height: 1.5;
     
@@ -36,18 +35,14 @@ body{
     color:#333333;
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 38px;
     display: inline-block;
   text-transform: none;
   letter-spacing: 1rem;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
 } 
-
-.legal a{color: rgb(0, 0, 0);
-        text-align: center;}
 
 
 
@@ -55,6 +50,7 @@ body{
     display: block;
     margin: 0 auto; 
     width: 400px; height: auto; border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
     
@@ -65,5 +61,10 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 7mm;
+    font-size: 8mm;
+    color: grey;
 }
+
+
+.legal a{color: rgb(0, 0, 0);
+    text-align: center;}
