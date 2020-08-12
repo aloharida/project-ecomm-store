@@ -16,14 +16,16 @@
   <body>
     <header>
 
-      <div id="top_menu">
+
+
+      <div class="topnav">
         <strong>
         <a href="#">Home</a> | 
         <a href="#">Login</a> |
         <a href="#">Join</a>
-      </strong>
-      </div>
-<br><br><br>
+        </strong>
+        </div>
+
 <i class="icons">
   <a href="#"><i class="material-icons">menu</i>
     <div style="float: right">
@@ -31,21 +33,82 @@
   <a href="#"><i class="material-icons">shopping_cart</i></a>
     </div>
       </i>
+
+
         <div class="logo">
           <img src="img/logo.png" alt="ridesign-logo">
         </div>
-<br><br>
 
+
+        <div class="sb">
+          <table with="100%" border="0" cellspacing="0" cellpadding="0" height="64px"></table>
+          <input type="text" placeholder="Do you want to find something ?">
+        </div>
+
+        <div class="itemlist">
+          <select name="clothing" id>
+          <option class="headfilter" value="clothing">CLOTHING</option>
+            <option value="dress">Dresses</option>
+            <option value="outer">Outers</option>
+            <option value="top">TOP</option>
+            <option value="knit">Knitwear</option>
+            <option value="tshirts">T-shirts</option>
+            <option value="skirts">Skirts</option>
+            <option value="pants">Pants</option>
+            <option value="underwear">Underwear</option>
+          </select>
+          <div class="itemlist">
+            <select name="bags" id>
+            <option class="headfilter" value="bags">BAGS</option>
+              <option value="tote">Tote</option>
+              <option value="clutch">Clutch</option>
+              <option value="backpack">Backpack</option>
+            </select>
+            <div class="itemlist">
+              <select name="shoes" id>
+              <option class="headfilter" value="shoes">SHOES</option>
+                <option value="pumps">Pumps</option>
+                <option value="sandals">Sandals</option>
+                <option value="flats">Flats</option>
+                <option value="sneakers">Sneakers</option>
+              </select>
+              <div class="ACC">
+                <select name="acc" id>
+                <option class="headfilter" value="acc">ACC</option>
+                  <option value="wallet">Wallets</option>
+                  <option value="eyewear">Eyewear</option>
+                  <option value="jewelry">Jewelry</option>
+                </select>
+
+      
+      </div>
     </header>
 
     <main>
       <header>
         <center>
         <h2>Best Seller</h2>
+      
+
+      <form>
+        <fieldset>
+          <label for="sort">SHOW</label>
+          <select name="sort" id="sort">
+            <option value="weekly">Weekly Hot Items</option>
+            <option value="Monthly">Monthly Hot Items</option>
+            <option value="newest">Newest releases</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Season</legend>
+          <ul class="option">
+            <input type="checkbox" name="ss" value="ss" id="ss"> <label for="ss">2020 S/S</label></li>
+            <input type="checkbox" name="fw" value="fw" id="fw"> <label for="fw">2020 F/W</label></li>
+            <input type="checkbox" name="lastseason" value="lastseason" id="lastseason"> <label for="lastseason">LAST SEASONS</label></li>
+          </ul>
+        </fieldset>
       </center>
-
-<br>
-
 
 <div class="products">
  <ul>
