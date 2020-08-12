@@ -29,8 +29,9 @@ fieldset{
     color: goldenrod;
     border-color: gold;
     border-style: dotted;
-
+    justify-content: space-around;
 }
+
 .option{
     margin-top: 40px;
     margin-bottom: 40px;
