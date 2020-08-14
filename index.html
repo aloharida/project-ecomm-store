@@ -34,17 +34,18 @@
     </div>
       </i>
 
-
+<!-- ****************** logo ****************** -->
         <div class="logo">
           <img src="img/logo.png" alt="ridesign-logo">
         </div>
+<!-- ****************** Search box ****************** -->
 
-
-        <div class="sb">
-          <table with="100%" border="0" cellspacing="0" cellpadding="0" height="64px"></table>
-          <input type="text" placeholder="Do you want to find something ?">
-        </div>
-
+      <div style="float: left;"></div>
+      <div class="sb">
+      <table with="100%" border="0" cellspacing="0" cellpadding="0" height="64px"></table>
+      <input type="text" placeholder="Do you want to find something ?">
+      </div>  
+        <!-- ****************** itemlist ****************** -->
         <div class="itemlist">
           <select name="clothing" id>
           <option class="headfilter" value="clothing">CLOTHING</option>
@@ -57,6 +58,7 @@
             <option value="pants">Pants</option>
             <option value="underwear">Underwear</option>
           </select>
+
           <div class="itemlist">
             <select name="bags" id>
             <option class="headfilter" value="bags">BAGS</option>
@@ -64,6 +66,7 @@
               <option value="clutch">Clutch</option>
               <option value="backpack">Backpack</option>
             </select>
+
             <div class="itemlist">
               <select name="shoes" id>
               <option class="headfilter" value="shoes">SHOES</option>
@@ -72,6 +75,7 @@
                 <option value="flats">Flats</option>
                 <option value="sneakers">Sneakers</option>
               </select>
+
               <div class="ACC">
                 <select name="acc" id>
                 <option class="headfilter" value="acc">ACC</option>
@@ -79,6 +83,7 @@
                   <option value="eyewear">Eyewear</option>
                   <option value="jewelry">Jewelry</option>
                 </select>
+            
 
       
       </div>
@@ -87,67 +92,138 @@
     <main>
       <header>
         <center>
-        <h2>Best Seller</h2>
-      
 
       <form>
         <fieldset>
-          <label for="sort">SHOW</label>
+          <ul class="hotitems">
           <select name="sort" id="sort">
             <option value="weekly">Weekly Hot Items</option>
             <option value="Monthly">Monthly Hot Items</option>
             <option value="newest">Newest releases</option>
+          </ul>
           </select>
         </fieldset>
 
         <fieldset>
-          <legend>Season</legend>
-          <ul class="option">
+          <ul class="Season">
             <input type="checkbox" name="ss" value="ss" id="ss"> <label for="ss">2020 S/S</label></li>
             <input type="checkbox" name="fw" value="fw" id="fw"> <label for="fw">2020 F/W</label></li>
             <input type="checkbox" name="lastseason" value="lastseason" id="lastseason"> <label for="lastseason">LAST SEASONS</label></li>
           </ul>
         </fieldset>
+        </form>
       </center>
 
-<div class="products">
- <ul>
-      <center>
-      <img src="img/dress1.jpg" alt="dress">
-        <br><br>
+
+<div class="stories">
+ <article class="story">
+   <div class="scale">
+      <img src="img/dress1.jpg" alt="dress" class="responsive">
       <h3>What the Dress</h3>
       <h4><u>$870</u></h4>
-        <br>
-      <img src="img/product2.jpg" alt="bag">
-       <br><br>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+    </div>
+ </article>
+
+      <article class="story">
+      <img src="img/product2.jpg" alt="bag" class="responsive">
+      <div class="scale">
       <h3>What the Bag</h3>
       <h4><u>$680</u></h4>
-       <br>
-      <img src="img/product3.jpg" alt="t-shirts">
-        <br><br>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+    </div>
+      </article>
+   
+      <article class="story">
+      <img src="img/product3.jpg" alt="t-shirts" class="responsive">
+      <div class="scale">
       <h3>What the T-shirts</h3>
       <h4><u>$280</u></h4>
-       <br>
-      <img src="img/product4.jpg" alt="wallet">
-<br><br>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+    </div>
+      </article>
+
+      <article class="story">
+      <img src="img/product4.jpg" alt="wallet" class="responsive">
+      <div class="scale">
       <h3>What the Wallet</h3>
       <h4><u>$490</u></h4>
-<br>
-      <img src="img/product5.jpg" alt="swimsuit">
-       <br><br>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+    </div>
+    </article>
+
+      <article class="story">
+      <img src="img/product5.jpg" alt="swimsuit" class="responsive">
+      <div class="scale">
       <h3>What the Swimsuit</h3>
       <h4><u>$790</u></h4>
-<br>
-      </center>
-    </ul>
-    </div>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+      </div>
+  </article>
+
+  <article class="story">
+    <img src="img/product6.jpg" alt="sunglasses" class="responsive">
+    <div class="scale">
+    <h3>What the Sunglasses</h3>
+    <h4><u>$380</u></h4>
+    <a href="#" class="btn-addtocart">
+      <strong>ADD TO CART</strong>
+    </a>
+  </div>
+    </article>
+
+    <article class="story">
+
+      <img src="img/product7.jpg" alt="swimming" class="responsive">
+      <div class="scale">
+      <h3>What the Swimming</h3>
+      <h4><u>$280</u></h4>
+      <a href="#" class="btn-addtocart">
+        <strong>ADD TO CART</strong>
+      </a>
+      </div>
+      </article>
+
+      <article class="story">
+        <img src="img/product8.jpg" alt="Shoes" class="responsive">
+        <div class="scale">
+        <h3>What the Shoes</h3>
+        <h4><u>$580</u></h4>
+        <a href="#" class="btn-addtocart">
+          <strong>ADD TO CART</strong>
+        </a>
+        </div>
+        </article>
+
+        <article class="story">
+          <img src="img/product9.jpg" alt="leggings" class="responsive">
+          <div class="scale">
+          <h3>What the Leggings</h3>
+          <h4><u>$170</u></h4>
+          <a href="#" class="btn-addtocart">
+            <strong>ADD TO CART</strong>
+          </a>
+        </div>
+          </article>
+
+</div>
     <div class="see-more">
           <p>SEE MORE OUR HOT PRODUCTS
             <a href="#"><i class="material-icons">expand_more</i>
           </p>
-    </div>
+        </article>
 <br><br>
-    <hr>
+<hr>
 <br>
     <footer>
       <center>

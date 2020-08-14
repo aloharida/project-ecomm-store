@@ -1,3 +1,5 @@
+
+
 .header{
     width: 100%;
     position: relative;
@@ -18,6 +20,9 @@ select {
 .itemlist{
     display: flex;
 }
+.itemlist:hover{
+    color: teal;
+}
 
 .clothing{ justify-content: space-between;}
 .bags{ justify-content: space-between;
@@ -27,10 +32,11 @@ select {
 
 
 fieldset{
+    border-radius: 15px;
     color: goldenrod;
-    margin-top: 2cm;
-
-
+    border-color: gold;
+    border-style: dotted;
+    justify-content: space-around;
 }
 
 .hotitems{
@@ -41,11 +47,10 @@ fieldset{
 
 .season{
     width: auto;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
-  .sb input[type=text] {
+.sb input[type=text] {
     float: none;
     display: block;
     text-align: left;
@@ -55,22 +60,56 @@ fieldset{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 3px solid #ccc;
-  width: 70%;
+  width: 80%;
   border-color: gold;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2cm;
   }
 
+  .sb:hover{width: 400px;}
+
+    .search-btn{
+      text-decoration: none;;
+      width: 30px;
+      height: 30px;
+      align-self: center;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+    .sb:hover.search-btn{
+      background-color: #fff;
+    }
+    .sb{
+      display: flex;
+      padding-top: 1em;
+      width: 0px;
+      border:none;
+      background: none;
+      outline: none;
+      float: left;
+      font-size: 1rem;
+      line-height: 30px;
+      transition: .4s;
+    }
+    .sb:hover > .search-txt{
+      width: 240px;
+      padding: 0 6px;
+    }
+ 
 fieldset {
     border: 0;
     padding: 10px;
     line-height: 0;
     display: inline-table;
-
 }
+
 
 select {
     display: flex;
@@ -110,9 +149,9 @@ select {
 body{
     background-color:white;
     color: rgb(37, 37, 37);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif}
 }
-    
+
 
 .material-icons {
     color:#333333;
@@ -131,33 +170,52 @@ body{
     color: gold;
 }
 
-.story {
-    padding: 8px 16px;
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 3px;
+
+./products{
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5em;
+    background-color:whitesmoke;
+    padding-top: 1em;
+    width: 30%; height: auto; border: 2px; max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    margin: 10px auto;
+    display: flex;
+}
+
+.story{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 2em 2em;
+    width: 400px;
+    max-width: auto;
+    height: auto;
+    position: relative;
+    top: 4.5em;
+    left: 4.5em;
+    justify-content: space-between;
+    padding: 3em
 }
 .stories {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
     display: flex;
-    padding: 0 8px;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 .btn-addtocart {
     font-size: 1em;
     display: inline-block;
     border-radius: 1cm;
-    background-color: rgb(236, 235, 230);
+    background-color: rgb(238, 185, 12);
     color: white;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
 .btn-addtocart:hover{
-    background-color: gold;
+    background-color: #333333;
 }
 .size{
     display:flex;
@@ -176,14 +234,13 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 6mm;
+    font-size: 8mm;
     color: grey;
 }
 
 
 .legal a{color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 7px;}
+    text-align: center;}
 
 @media screen and (min-width: 600px) {
         .stories {
