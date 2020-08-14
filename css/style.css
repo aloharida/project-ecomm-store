@@ -61,6 +61,8 @@ fieldset{
 .subtop {
     color: gold;
 }
+.hotitems{margin-bottom: 10px;}
+
 .sb{align-content: center;}
 
   .sb input[type=text] {
@@ -152,37 +154,46 @@ body{
 
 .story1 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story2 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }.story3 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }.story4 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story5 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story6 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story7 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story8 {
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .story9{
     vertical-align: middle;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
