@@ -1,5 +1,4 @@
-box-sizing: inherit;
-}
+
 html {
 	box-sizing: border-box;
 }
@@ -9,7 +8,6 @@ body {
 img {
     max-width: 100%;
     vertical-align: middle;
-    
     padding: 0px;
 }
 
@@ -30,20 +28,22 @@ select {
     font-size: 14px;
 }
 
+.btn-navbar1,.btn-navbar2,.btn-navbar3,.btn-navbar4  {
 
+    font-size: 1em;
+    justify-content: space-between;
+    border-radius: 3cm;
+    background-color:gold;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 
-.itemlist{
-    width: 100%;
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
 }
 
-
-.clothing{float:left; width:100px;}
-
-
+.btn-navbar1:hover,.btn-navbar2:hover,.btn-navbar3:hover,.btn-navbar4:hover{
+    background-color: rgb(12, 12, 85);}
 
 
 fieldset{
@@ -52,21 +52,19 @@ fieldset{
 
 
 }
-
-.hotitems{
-    margin-top: 9px;
-    margin-bottom: 40px;
-    font-size: 20px;
+.navbar{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.season{
-    width: auto;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.subtop {
+    color: gold;
 }
+.sb{align-content: center;}
 
   .sb input[type=text] {
-    float: none;
+    float: inline-start;
     display: block;
     text-align: left;
     width: 100%;
@@ -115,15 +113,16 @@ select {
 }
 
         
-.topnav a{color: gold;font-size: 14px;}
+.topnav a{color: gold;font-size: 17px;}
 .topnav:hover{border-radius: 3px;
-            background-color: black;}
+            font-size: 17px;
+            background-color:rgb(12, 12, 85);}
 .topnav {
     position: absolute;
     right: 10px;
     top: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-size 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
 }
 
 
@@ -140,30 +139,61 @@ body{
     font-style: normal;
     font-size: 38px;
     display: inline-block;
-  text-transform: none;
-  letter-spacing: 1rem;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  margin-top: 1.5cm;
+    text-transform: none;
+    letter-spacing: 1rem;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    margin-top: 1.5cm;
 } 
 .material-icons:hover{
     color: gold;
 }
 
-.story {
-    padding: 8px 16px;
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 3px;
+.story1 {
+    vertical-align: middle;
+    padding-bottom: 40px;
 }
+.story2 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}.story3 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}.story4 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+.story5 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+.story6 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+.story7 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+.story8 {
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+.story9{
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+
+
 .stories {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
+
     display: flex;
     padding: 0 8px;
+    
 }
+
+
 .btn-addtocart {
     font-size: 1em;
     display: inline-block;
@@ -192,33 +222,46 @@ body{
 
 
 
-.see-more {
+.seemore {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     font-size: 6mm;
     color: grey;
 }
 
 
-.legal a{color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 7px;}
+footer a{color: #333333;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    text-align: center;}
+    
 
 
-    @media screen and (min-width: 370px)/*phone*/ 
+    @media screen and (min-width: 0px) and (max-width:599px) /*phone*/ 
     {
         .stories {
-            width: 50%;
+            float: left;
             display: flex;
             align-items: stretch;
+            text-align: center;
             flex-wrap: wrap;
             justify-content: space-around;
-            font-size: 10px;
+            flex-basis: calc(25%); 
+        }
+        .subtop{
+            display: flex;
+            padding-top: 2px;
+            padding-bottom:2px;}
+
+        .sb{font-size: 10px;
+            display: flex;}
+
         }
         img.responsive { width: 150px; }
         img.responsive { height: 250px; }
-    }
+
 
     @media screen and (min-width: 600px) /*web*/ 
     {
@@ -226,9 +269,11 @@ body{
             width: 100%;
             display: flex;
             align-items: stretch;
+            text-align: center;
             flex-wrap: wrap;
             justify-content: space-between;
             font-size: 20px;
+            flex-basis: calc(33.3333%);
         }
         img.responsive { width: 400px; }
         img.responsive { height: 550px; }
