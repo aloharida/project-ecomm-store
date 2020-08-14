@@ -57,6 +57,7 @@ fieldset{
 .navbar{
 
     display: flex;
+
     justify-content: space-around;
     text-decoration: none;
     width: auto;
@@ -120,9 +121,9 @@ select {
 }
 
         
-.topnav a{color: gold;font-size: 17px;}
+.topnav a{color: gold;font-size: 13px;}
 .topnav:hover{border-radius: 3px;
-            font-size: 17px;
+            font-size: 13px;
             background-color:rgb(12, 12, 85);}
 .topnav {
     position: absolute;
@@ -273,7 +274,8 @@ footer a{color: #333333;
         .sb{display: none;}
         .logo {max-width: 145px;}
         .navbar{display:none}
-        .icons {width: 10px;}
+        .icons {font-size: 4px;}
+        .material-icons {font-size: 19px;}
         .btn-addtocart{width: auto;}
         }
         img.responsive { width: 150px; }
