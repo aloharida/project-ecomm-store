@@ -247,7 +247,7 @@ body{
 }
 
 .legal{
-    font-size: 4px;
+    font-size: 7px;
 }
 footer a{color: #333333;
     align-content: center;
@@ -279,8 +279,6 @@ footer a{color: #333333;
         .icons {font-size: 7px;}
         .material-icons {font-size: 25px;}
         .btn-addtocart{width: auto;}
-        .seemore{font: size 4px;}
-        .legal{font-size: 4px;}
         }
         img.responsive { width: 150px; }
         img.responsive { height: 250px; }
