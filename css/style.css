@@ -203,6 +203,5 @@ body{
         /*img.resize { width: 40px; }
         img.resize { height: 50px; }*/
     }
-
-
-
+    @media only screen and {min-device-width : 320px} 
+    and {max-device-width : 480px}
