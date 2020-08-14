@@ -262,13 +262,15 @@ footer a{color: #333333;
             flex-basis: calc(25%); 
         }
         .subtop{
-            display: flex;
+            display: none;
             padding-top: 2px;
             padding-bottom:2px;}
 
-        .sb{font-size: 10px;
-            display: flex;}
-
+        .sb{display: none;}
+        .logo {max-width: 150px;}
+        .navbar{display:none}
+        .icons {width: 10px;}
+        .btn-addtocart{width: auto;}
         }
         img.responsive { width: 150px; }
         img.responsive { height: 250px; }
