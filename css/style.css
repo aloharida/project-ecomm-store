@@ -246,11 +246,13 @@ body{
     color: grey;
 }
 
-
+.legal{
+    font-size: 4px;
+}
 footer a{color: #333333;
     align-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5px;
+    font-size: 4px;
     text-align: center;}
     
 
