@@ -16,13 +16,15 @@ select {
 
 
 .itemlist{
-    display: flex;
+    width: 100%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
-.clothing{ justify-content: space-between;}
-.bags{ justify-content: space-between;
+.clothing{float:left; width:100px;}
 
-}
 
 
 
@@ -185,12 +187,12 @@ body{
     text-align: center;
     font-size: 7px;}
 
-@media screen and (min-width: 600px) {
+    @media screen and (min-width: 600px) {
         .stories {
             display: flex;
             align-items: stretch;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         .stories {
             flex-basis: calc(50% 0.5em);
@@ -201,3 +203,6 @@ body{
         /*img.resize { width: 40px; }
         img.resize { height: 50px; }*/
     }
+
+
+
