@@ -242,7 +242,7 @@ body{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    font-size: 6mm;
+    font-size: 8px;
     color: grey;
 }
 
@@ -250,7 +250,7 @@ body{
 footer a{color: #333333;
     align-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 9px;
+    font-size: 5px;
     text-align: center;}
     
 
@@ -272,10 +272,10 @@ footer a{color: #333333;
             padding-bottom:2px;}
 
         .sb{display: none;}
-        .logo {max-width: 145px;}
+        .logo {max-width: 140px;}
         .navbar{display:none}
         .icons {font-size: 4px;}
-        .material-icons {font-size: 19px;}
+        .material-icons {font-size: 25px;}
         .btn-addtocart{width: auto;}
         }
         img.responsive { width: 150px; }
